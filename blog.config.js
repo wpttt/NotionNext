@@ -313,7 +313,7 @@ const BLOG = {
   COMMENT_WALINE_RECENT: process.env.NEXT_PUBLIC_WALINE_RECENT || false, // 最新评论
 
   // 此评论系统基于WebMention，细节可参考https://webmention.io
-  // 它是一个基于IndieWeb理念的开放式评论系统，下方COMMENT_WEBMENTION包含的属性皆需配置：
+  // 它是一个基于IndieWeb理念的开放式评论系统，下方COMMENT_WEBMENTION包含的属性皆需配置：busuanzi
   // ENABLE: 是否开启
   // AUTH: Webmention使用的IndieLogin，可使用Twitter或Github个人页面连结
   // HOSTNAME: Webmention绑定之网域，通常即为本站网址
