@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="_图层_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 256.7 256.7" style="enable-background:new 0 0 256.7 256.7;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#DCDDDD;stroke:#EFEFEF;stroke-width:40;stroke-miterlimit:10;}
-	.st1{fill:#231815;}
-	.st2{fill:none;}
-</style>
-<circle class="st0" cx="128.4" cy="128.4" r="97.1"/>
-<image style="overflow:visible;enable-background:new    ;" width="997" height="997" xlink:href="9FED7000232AC9FE.png"  transform="matrix(0.24 0 0 0.24 7 17.21)">
-</image>
-<path class="st1" d="M213.8,101.1L213.8,101.1c0-28.6-23.4-51.9-51.9-51.9H75.7c-11.8,7.9-21.8,18.3-29,30.5v34.6h51.9v102h56.1V153
-	h7.2C190.4,153,213.8,129.7,213.8,101.1L213.8,101.1z M175.6,101.1c0,7.3-5.9,13.2-13.2,13.2h-7.7V87.9h7.7
+	 viewBox="0 0 256.7 256.7" enable-background="new 0 0 256.7 256.7" xml:space="preserve">
+<circle fill="#DCDDDD" stroke="#EFEFEF" stroke-width="40" stroke-miterlimit="10" cx="128.4" cy="128.4" r="97.1"/>
+<path fill="#231815" d="M213.8,101.1L213.8,101.1c0-28.6-23.4-51.9-51.9-51.9H75.7c-11.8,7.9-21.8,18.3-29,30.5v34.6h51.9v102h56.1
+	V153h7.2C190.4,153,213.8,129.7,213.8,101.1L213.8,101.1z M175.6,101.1c0,7.3-5.9,13.2-13.2,13.2h-7.7V87.9h7.7
 	C169.7,87.9,175.6,93.8,175.6,101.1L175.6,101.1z"/>
-<rect class="st2" width="256.7" height="256.7"/>
+<rect y="0" fill="none" width="256.7" height="256.7"/>
 </svg>
