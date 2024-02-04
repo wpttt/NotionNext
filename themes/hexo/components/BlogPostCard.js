@@ -26,23 +26,24 @@ const BlogPostCard = ({ index, post, showSummary, siteInfo }) => {
                 id='blog-post-card'
                 className={`group md:h-56 w-full flex justify-between md:flex-row flex-col-reverse ${siteConfig('HEXO_POST_LIST_IMG_CROSSOVER', null, CONFIG) && index % 2 === 1 ? 'md:flex-row-reverse' : ''}
                     overflow-hidden border dark:border-black rounded-xl bg-white dark:bg-hexo-black-gray`}>
+               
+                {/* 文字内容 */}
+                <BlogPostCardInfo index={index} post={post} showPageCover={showPageCover} showPreview={showPreview} showSummary={showSummary} />
+
+                {/* 图片封面 */}
+                {showPageCover && (
+                    <div className="md:w-5/12 overflow-hidden">
+                        <Link href={url} passHref legacyBehavior>
+                        <LazyImage priority={index === 1} src={post?.pageCoverThumbnail} className='h-56 w-full object-cover object-center group-hover:scale-110 duration-500' />
+                        </Link>
+                    </div>
+                )}
                 <Link
                     href={url}
                     passHref
                     className={`line-clamp-2 replace cursor-pointer text-2xl ${showPreview ? 'text-center' : ''
-                       } leading-tight font-normal text-gray-600 dark:text-gray-100 hover:text-indigo-700 dark:hover:text-indigo-400`}>
+                        } leading-tight font-normal text-gray-600 dark:text-gray-100 hover:text-indigo-700 dark:hover:text-indigo-400`}>
 
-                    {/* 文字内容 */}
-                    <BlogPostCardInfo index={index} post={post} showPageCover={showPageCover} showPreview={showPreview} showSummary={showSummary} />
-
-                    {/* 图片封面 */}
-                    {showPageCover && (
-                        <div className="md:w-5/12 overflow-hidden">
-                            <Link href={url} passHref legacyBehavior>
-                            <LazyImage priority={index === 1} src={post?.pageCoverThumbnail} className='h-56 w-full object-cover object-center group-hover:scale-110 duration-500' />
-                            </Link>
-                        </div>
-                    )}
                 </Link>
 
             </div>
